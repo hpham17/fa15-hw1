@@ -5,7 +5,9 @@ end
 
 def sort_array_plus_one(a)
 	a.sort!
-	a.map { |i| i + 1 }
+	for x in a
+		x += 1
+	end
 end
 
 def combine_name(first_name, last_name)

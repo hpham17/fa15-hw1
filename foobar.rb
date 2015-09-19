@@ -1,5 +1,5 @@
 class Foobar
-  def baz(array)
+  def self.baz(array)
   	sum = 0
   	temp = []
   	array.each do |i|
