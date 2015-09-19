@@ -41,7 +41,7 @@ def check_blockin_time
 end
 
 check_squared_sum
-check_sort_array
+#check_sort_array
 check_combine_name
 check_blockin_time
 
