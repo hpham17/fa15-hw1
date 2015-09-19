@@ -4,7 +4,7 @@ class Foobar
   	temp = []
   	array.each do |i|
   		i.to_i
-  		i + 2 
+  		i += 2 
   		if i > 10 and !(temp.include? i)
   			temp << i
   		end
