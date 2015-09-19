@@ -5,9 +5,12 @@ end
 
 def sort_array_plus_one(a)
 	a.sort!
-	a = a.each do |x|
+	result = []
+	a.each do |x|
 		x += 1
+		result << x
 	end
+	return result
 end
 
 def combine_name(first_name, last_name)
