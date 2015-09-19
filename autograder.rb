@@ -8,6 +8,7 @@ def check_squared_sum
   puts 'Q1 Success!'
 end
 
+=begin
 def check_sort_array
   arr = [18, 27, 100, -5, 6, 7]
   expected_output_arr = [-4, 7, 8, 19, 28, 101]
@@ -21,6 +22,7 @@ def check_sort_array
   raise error_str unless output_arr == expected_output_arr
   puts 'Q2 Success!'
 end
+=end
 
 def check_combine_name
   output_name = combine_name 'Chuck', 'Norris'
