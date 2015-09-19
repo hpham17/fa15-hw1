@@ -5,7 +5,7 @@ end
 
 def sort_array_plus_one(a)
 	a.sort!
-	a = for x in a
+	a = a.each do |x|
 		x += 1
 	end
 end
