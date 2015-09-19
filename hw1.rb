@@ -5,7 +5,7 @@ end
 
 def sort_array_plus_one(a)
 	a.sort!
-	for x in a
+	a = for x in a
 		x += 1
 	end
 end
